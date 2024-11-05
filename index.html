@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="College Town Hall Website for students to share feedback and find information on student issues and solutions.">
+    <title>College Town Hall</title>
+</head>
+<body style="font-family: Arial, sans-serif; background-color: #edebeb; color: #333;">
+
+    <header style="text-align: center; padding: 20px; background-color: black; color: #ffffff;">
+        <h1 style="margin: 0;">Associated Students Council of Ocean Campus</h1>
+        <h1 style="margin: 0;">Town Hall</h1>
+        <img src="https://www.ccsf.edu/sites/default/files/inline-images/CCSF%20LOGO.png" alt="CCSF logo" width="150" height="100">
+        
+    </header>
+
+    <main>
+        <section id="about" aria-labelledby="about-heading">
+            <h2 id="about-heading" style="color: #e32526;">About the Town Hall</h2>
+            <p>ASCO Town Hall serves as a forum for students to engage with campus leaders, voice concerns, and collaborate on solutions to campus issues. Our mission is to ensure every student has a voice.</p>
+        </section>
+
+        <section id="events" aria-labelledby="events-heading">
+            <h2 id="events-heading" style="color: #e32526;">Upcoming Events</h2>
+            <ul>
+                <li>
+                    <h3>Next Town Hall Meeting</h3>
+                    <p>Date: November 20, 2024</p>
+                    <p>Time: 12:00 - 1:30 PM</p>
+                    <p>Location: City Cafe, Student Union</p>
+                    <p>Description: Let's dive into key initiatives and campus concerns. Your voice matters-bring your feedback and help shape the future!</p>
+                    <h3>Zoom Details:</h3>
+                    <p></p>
+                </li>
+            </ul>
+        </section>
+
+        <section id="activity" aria-labelledby="events-heading">
+            <h2 id="events-heading" style="color: #e32526;">Recent Activity</h2>
+            <ul>
+                <li>
+                    <h3></h3>
+                    
+                </li>
+            </ul>
+        </section>
+
+        <section id="feedback" aria-labelledby="feedback-heading">
+            <h2 id="feedback-heading" style="color: #e32526;">Submit Your Feedback</h2>
+            <p>We value your feedback. Please fill out the form below to share your thoughts and suggestions.</p>
+            <form aria-label="Feedback Form" action="submit-feedback.php" method="POST">
+                <div>
+                    <label for="name">Your Name (optional):</label><br>
+                    <input type="text" id="name" name="name" aria-required="false" style="width: 100%; padding: 8px; margin-top: 5px;">
+                </div>
+                <div>
+                    <label for="email">Your Email (optional):</label><br>
+                    <input type="email" id="email" name="email" aria-required="false" style="width: 100%; padding: 8px; margin-top: 5px;">
+                </div>
+                <div>
+                    <label for="message">Your Feedback:</label><br>
+                    <textarea id="message" name="message" rows="5" required aria-required="true" style="width: 100%; padding: 8px; margin-top: 5px;"></textarea>
+                </div>
+                <div>
+                    <button type="submit" style="padding: 10px 15px; border: none; cursor: pointer; margin-top: 10px;">Submit Feedback</button>
+                </div>
+            </form>
+        </section>
+    </main>
+
+    <footer style="background-color: black; color: #ffffff; text-align: center; padding: 15px;">
+        <section id="contact" aria-labelledby="contact-heading">
+            <h2 id="contact-heading">Contact Us</h2>
+            <address>
+                <p>Email: asc.ocean@mail.ccsf.edu<a href="mailto:asc.ocean@mail.ccsf.edu" style="color: #ffffff;"></a></p>
+                <p>Address: Student Union Building Room 209 & 213, 50 Friday Kahlo Way, San Francisco, CA, 94122</p>
+            </address>
+        </section>
+    </footer>
+</body>
+</html>
